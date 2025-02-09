@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #cccc;
+}
+#showcase{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./glsports.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;    
+}
+#showcase .section-main_container{
+    margin-top: 25vh;
+}
+
+#showcase h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#showcase h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51,34,34);
+    position: fixed;
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 9px 0;
+    color: #eee;
+}
+
+nav li:hover{
+    background-color: #656565;
+}
+
+
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.lead_hide-on-small{
+    color: rgb(7, 7, 236);
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer .footer-cols{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footer-cols ul{
+    list-style: none;
+} 
+
+.footer-cols li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(103, 103, 98);
+    margin-bottom: 1rem;
+}
+
+.footer_bottom{
+    background-color: #464646;
+    padding: 16px;
+    text-align: center;
+}
+
